@@ -14,7 +14,7 @@ export const usePrediction = () => {
       const formData = new FormData();
       formData.append('file', blob, 'capture.jpg');
 
-      const response = await fetch('https://kharisjos-bisindo-capstone.hf.space/predict', {
+      const response = await fetch('https://kharisjos-capstone-sibi-web.hf.space/predict', {
         method: 'POST',
         body: formData
       });
